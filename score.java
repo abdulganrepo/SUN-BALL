@@ -27,10 +27,8 @@ public class score extends Actor
         // Add your action code here.
         
         if(skor == 16){
-       
-       ((bg)getWorld()).stopped();
-       
-       Greenfoot.setWorld(new bg2());
+            ((bg)getWorld()).stopped();     
+            Greenfoot.setWorld(new bg2());
        }
     }
     public void tambahskor(){
