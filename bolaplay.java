@@ -52,7 +52,6 @@ public class bolaplay extends Actor
     }
     public void bawah()
     {
-        
         if(getY()>=getWorld().getHeight()-getImage().getHeight()/2){
             y=y-1;
         }

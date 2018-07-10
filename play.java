@@ -18,7 +18,12 @@ public class play extends World
     {    
         super(400, 600, 1); 
         prepare();
-        setBackground("langit.jpg");
+       
+         
+         
+        
+         
+        // Add your action code here.
     } 
 
         
@@ -229,5 +234,23 @@ public class play extends World
         addObject(about,269,516);
         about.setLocation(206,470);
         about.setLocation(204,470);
+        judul2.setLocation(204,150);
+        start3.setLocation(208,341);
+        tutorial.setLocation(208,407);
+        about.setLocation(214,499);
+        tutorial.setLocation(211,426);
+        start3.setLocation(213,360);
+        judul2.setLocation(194,157);
+        start3.setLocation(209,357);
+        tutorial.setLocation(210,433);
+        about.setLocation(220,549);
+        tutorial.setLocation(211,440);
+        about.setLocation(214,527);
+        tutorial.setLocation(185,410);
+        tutorial.setLocation(195,440);
+        removeObject(tutorial);
+        tutorial tutorial2 = new tutorial();
+        addObject(tutorial2,218,449);
+        tutorial2.setLocation(210,442);
     }
 }

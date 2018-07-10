@@ -17,9 +17,11 @@ public class bg2 extends World
     public bg2()
     {    
         super(400, 600, 1); 
+        
         started();
         prepare();
-        setBackground("langit.jpg");
+        
+        
     }
      public void started(){
         backgroundMusic.playLoop();
@@ -164,6 +166,7 @@ public class bg2 extends World
         bola22.setLocation(202,524);
         score2.setLocation(36,585);
         score2.setLocation(36,581);
+        score2.setLocation(26,570);
     }
    
 }

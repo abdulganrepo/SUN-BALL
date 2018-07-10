@@ -15,9 +15,9 @@ public class aboutbg extends World
      */
     public aboutbg()
     {    
-        super(400, 600, 1);
+        super(400, 600, 1); 
+
         prepare();
-        setBackground("aboutbg.jpg");
     }
 
     /**

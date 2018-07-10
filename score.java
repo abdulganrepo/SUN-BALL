@@ -16,23 +16,16 @@ public class score extends Actor
     
     public score()
     {
-        setImage("logo.png");
-      
-        GreenfootImage img=getImage();
-        img.scale(img.getWidth()-700,img.getHeight()-450);
-        setImage(img);
+        setImage("score.png");
     }
     public void act() 
-    {
-        // Add your action code here.
-        
+    { 
         if(skor == 16){
-            ((bg)getWorld()).stopped();     
-            Greenfoot.setWorld(new bg2());
+       ((bg)getWorld()).stopped();
+       Greenfoot.setWorld(new bg2());
        }
     }
     public void tambahskor(){
         skor+=1;
     }
-   
 }

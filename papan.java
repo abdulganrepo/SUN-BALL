@@ -21,7 +21,6 @@ public class papan extends Actor
         if(Greenfoot.isKeyDown("right")){
             move(3);
         }
-    }    
-        // Add your action code here.
+    }      // Add your action code here.
     }    
 }

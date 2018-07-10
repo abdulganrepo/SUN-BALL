@@ -18,9 +18,11 @@ public class bg extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(400, 600, 1); 
+        
         started();
         prepare();
-        setBackground("langit.jpg");
+        
+       
     }
     public void started(){
         backgroundMusic.playLoop();
@@ -183,10 +185,11 @@ public class bg extends World
         bola4.setLocation(198,534);
         score2.setLocation(43,584);
         score2.setLocation(33,584);
-        gameover gameover = new gameover();
-        addObject(gameover,282,384);
-        gameover.setLocation(234,302);
-        removeObject(gameover);
+
+        score2.setLocation(26,571);
+        score2.setLocation(29,572);
+        score2.setLocation(37,571);
+        score2.setLocation(25,570);
     }
 }
     
