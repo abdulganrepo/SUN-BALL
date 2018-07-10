@@ -22,12 +22,6 @@ public class start extends Actor
          World start =getWorld();
          start = new bg();
          Greenfoot.setWorld(start);
-         
-         
-         
-        
-         
-        // Add your action code here.
     } 
     
 }
