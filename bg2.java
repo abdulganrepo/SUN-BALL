@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class bg2 extends World
 {
     
-    GreenfootSound backgroundMusic = new GreenfootSound("play.wav");
+    GreenfootSound backgroundMusic = new GreenfootSound("play.mp3");
     /**
      * Constructor for objects of class bg2.
      * 
@@ -17,11 +17,9 @@ public class bg2 extends World
     public bg2()
     {    
         super(400, 600, 1); 
-        
         started();
         prepare();
-        
-        
+        setBackground("langit.jpg");
     }
      public void started(){
         backgroundMusic.playLoop();

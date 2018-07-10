@@ -19,15 +19,12 @@ public class back extends Actor
         setImage(img);
         
     }
-    public void act() 
-    {
-          {
+    public void act(){
         if(Greenfoot.mouseClicked(this)){
-               (getWorld()).stopped();
+            (getWorld()).stopped();
             World Start = getWorld();
             Start = new play();
             Greenfoot.setWorld(Start);
-        }
-    }   // Add your action code here.
+        } 
     }    
 }

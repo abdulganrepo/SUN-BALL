@@ -75,9 +75,9 @@ public class bola2 extends Actor
         }
         if(getY()>=getWorld().getHeight()-getImage().getHeight()/2){
             Greenfoot.stop();
-            Greenfoot.playSound("kalah.wav");
+            Greenfoot.playSound("kalah.mp3");
             getWorld().addObject(new gameover(), getWorld().getWidth() /  2, getWorld().getHeight() / 2);
-            
+            getWorld().addObject(new home(), getWorld().getWidth() /  2, (getWorld().getHeight() / 2) + 150);
         }
  
 

@@ -18,12 +18,7 @@ public class play extends World
     {    
         super(400, 600, 1); 
         prepare();
-       
-         
-         
-        
-         
-        // Add your action code here.
+        setBackground("langit.jpg");
     } 
 
         
